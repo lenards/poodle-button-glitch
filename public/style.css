@@ -1,0 +1,85 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", "Helvetica Neue", helvetica, sans-serif;
+  background-color: rgba(66, 33, 99, 0.14);
+  margin: 2em;
+}
+
+h1, h2, h3, h4, button {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Lexend Deca", "Helvetica Neue", helvetica, sans-serif;
+}
+
+h1 {
+  font-style: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 15px 35px;
+  background-color: white;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  box-shadow: 2px 2px purple;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(66, 33, 99, 0.29);
+  color: white;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+header {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background: rebeccapurple;
+  color: white;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;  
+}
+
+.container img {
+  max-width: 920px;
+  outline: 3px solid rgba(66, 33, 99, 0.29);
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 45px 25px;
+}
